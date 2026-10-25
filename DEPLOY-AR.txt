@@ -1,0 +1,33 @@
+A&G Projects - نسخة العرض الأونلاين
+
+النسخة تشمل آخر تعديلات الصور Compact والأنيميشنز والعربي والإنجليزي.
+
+الطريقة الأسهل: Netlify Drop
+1. فك ضغط الحزمة بالكامل.
+2. افتح https://app.netlify.com/drop وسجل الدخول لحفظ الموقع في حسابك.
+3. اسحب المجلد الذي يحتوي مباشرة على index.html وassets وar وen إلى مساحة الرفع.
+4. انتظر انتهاء الرفع ثم افتح رابط الموقع الناتج.
+5. عند التحديث، ارفع المجلد الجديد من قسم Deploys في نفس المشروع.
+
+Vercel باستخدام GitHub
+1. أنشئ Repository جديدًا في GitHub، ويمكن أن يكون Private.
+2. ارفع محتويات هذه الحزمة داخل جذر الـ Repository؛ يجب أن يظهر vercel.json بجوار index.html مباشرة.
+3. من https://vercel.com/new اختر Import Git Repository واربط المستودع.
+4. Framework Preset: Other
+5. Root Directory: جذر المستودع الذي يحتوي على vercel.json.
+6. Build Command: فارغ. Output Directory: نقطة واحدة .
+7. لا تحتاج Environment Variables أو Install Command.
+8. اضغط Deploy ثم افتح الرابط الناتج. الإعدادات موجودة بالفعل في vercel.json.
+
+مهم
+- ارفع محتويات حزمة Static هذه، وليس ملفات مشروع PHP الأصلي أو نسخة Offline.
+- نموذج التواصل للعرض فقط: لا يتم حفظ أو إرسال بيانات. الإرسال الفعلي يحتاج ربط خدمة أو استضافة نسخة PHP.
+- روابط الشركات والبريد تعمل طبيعيًا في هذه النسخة.
+- الأنيميشنز تعمل، مع احترام إعداد تقليل الحركة في جهاز الزائر.
+- هذه حزمة للمعاينة؛ أضفنا noindex حتى لا تنافس الموقع الأساسي في نتائج البحث.
+- لم تُنشر هذه الحزمة على حسابك بعد؛ الاختبار تم محليًا عبر HTTP.
+
+المراجع الرسمية
+https://docs.netlify.com/deploy/create-deploys/
+https://vercel.com/docs/builds/configure-a-build
+https://vercel.com/docs/project-configuration/vercel-json

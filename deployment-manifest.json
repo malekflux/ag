@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-25",
+  "pages": [
+    "ar/index.html",
+    "ar/about.html",
+    "ar/services.html",
+    "ar/projects.html",
+    "ar/leadership.html",
+    "ar/contact.html",
+    "ar/privacy.html",
+    "ar/project/beauty-more.html",
+    "ar/project/beauty-academy-more.html",
+    "ar/project/go-plus.html",
+    "ar/project/aman-technology.html",
+    "ar/project/halal.html",
+    "en/index.html",
+    "en/about.html",
+    "en/services.html",
+    "en/projects.html",
+    "en/leadership.html",
+    "en/contact.html",
+    "en/privacy.html",
+    "en/project/beauty-more.html",
+    "en/project/beauty-academy-more.html",
+    "en/project/go-plus.html",
+    "en/project/aman-technology.html",
+    "en/project/halal.html",
+    "index.html"
+  ],
+  "stylesheetVersion": "47172e733b81",
+  "format": "Prebuilt HTML/CSS/JS",
+  "platforms": [
+    "Vercel",
+    "Netlify"
+  ],
+  "forms": "Demonstration only; no storage or transmission",
+  "animation": "Original local GSAP and ScrollTrigger",
+  "deployed": false
+}
